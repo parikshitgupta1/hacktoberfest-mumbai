@@ -29,7 +29,7 @@ const Home = ({ contributors }) => (
     <Head />
     <Grid className={styles.welcomeGridWrapper} container>
       <Typography variant={"h1"} className={styles.welcomeText}>Let's change the world together with Open source!</Typography>
-      <Typography variant={"h2"} className={styles.welcomeSubText}>Hacktoberfest is open to everyone whether you're new to development, a student or a long-time contributor. Open your first pull request and generate a personalized music certificate
+      <Typography variant={"h2"} className={styles.welcomeSubText}>Hacktoberfest is open to everyone whether you're new to development, a student or a long-time contributor. Open your first pull request and generate a personalized certificate
       <a className={styles.githubLink} href="https://github.com/parikshitgupta1/hacktoberfest-mumbai" target="_blank">here</a>.
       </Typography>
     </Grid>
