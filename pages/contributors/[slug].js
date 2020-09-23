@@ -69,8 +69,8 @@ export default function Contributor({ githubUser, contributorData }) {
 		<Layout noAppBar>
 			<Head
 				title={`${githubUser && githubUser.name}'s personalized music card | Hactoberfest 2020`}
-				description={`Checkout ${githubUser && githubUser.name}'s personalized music card generated for contributing to the open-source community | Hactoberfest 2020`}
-				url={`https://blahhhh.netlify.app/contributors/${githubUser && githubUser.login}`}
+				description={`Checkout ${githubUser && githubUser.name}'s personalized music card generated for contributing to the open-source community | Hacktoberfest 2020`}
+				url={`https://hacktoberfest-mumbai.vercel.app/contributors/${githubUser && githubUser.login}`}
 			/>
 			<Link href="/" as="/">
 				<HomeIcon className={styles.homeIcon} />
