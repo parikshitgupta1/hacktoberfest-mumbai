@@ -3,8 +3,8 @@ import NextHead from 'next/head'
 import { string } from 'prop-types'
 
 const defaultDescription = 'Open your first pull request here for the Hacktoberfest 2020 challenge and generate a personalized music certificate!'
-const defaultOGURL = 'https://blahhhh.netlify.app/'
-const defaultOGImage = 'https://blahhhh.netlify.app/og-image.jpeg'
+const defaultOGURL = 'https://hacktoberfest-mumbai.vercel.app/'
+const defaultOGImage = 'https://hacktoberfest-mumbai.vercel.app/og-image.jpeg'
 
 const Head = props => (
   <NextHead>
